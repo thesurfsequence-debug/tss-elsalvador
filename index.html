@@ -459,7 +459,7 @@ function vPresencial(){
     <div class="inner-tabs">
       <button class="itab active" id="it-sp-hoy" onclick="spTab('hoy')">📅 Hoy</button>
       <button class="itab" id="it-sp-proximas" onclick="spTab('proximas')">🗓 Próximas</button>
-      ${isCoach ? '<button class="itab" id="it-sp-crear" onclick="spTab('crear')">＋ Nueva</button>' : ''}
+      ${isCoach ? `<button class="itab" id="it-sp-crear" onclick="spTab('crear')">＋ Nueva</button>` : ''}
       <button class="itab" id="it-sp-hist" onclick="spTab('hist')">📋 Historial</button>
     </div>
     <div id="spTabContent"></div>`);
